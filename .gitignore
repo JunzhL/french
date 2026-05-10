@@ -1,0 +1,13 @@
+# Ignore everything by default.
+*
+
+# Keep directories traversable so whitelist rules below can apply recursively.
+!*/
+
+# Keep the ignore rules file itself.
+!.gitignore
+
+# Keep only document/source formats requested.
+!*.pdf
+!*.tex
+!*.md
